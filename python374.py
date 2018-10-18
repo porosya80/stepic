@@ -12,4 +12,4 @@ for i in range(int(input())):
         result[1] -= int(mass[1])
 
 
-print(result[0],result[1])
+print(result[0], result[1])

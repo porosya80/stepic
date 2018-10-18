@@ -14,5 +14,4 @@ chkText = set(chkText1)
 for i in set(exList).intersection(chkText):
     chkText.remove(i)
 
-print ("\n".join(chkText))
-
+print("\n".join(chkText))

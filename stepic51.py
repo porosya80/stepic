@@ -32,8 +32,9 @@
 #
 # print("{:.2e}".format(meters))
 
-eta, inp = dict( mile = 1609, yard = 0.9144, foot = 0.3048, m = 1.0,inch = 0.0254, km = 1000, cm = 0.01, mm = 0.001 ), input().split()
-print (eta , inp)
+eta, inp = dict(mile=1609, yard=0.9144, foot=0.3048, m=1.0,
+                inch=0.0254, km=1000, cm=0.01, mm=0.001), input().split()
+print(eta, inp)
 
 x = float(inp[0]) * eta[inp[1]] / eta[inp[3]]
 print('{:.2e}'.format(x))
